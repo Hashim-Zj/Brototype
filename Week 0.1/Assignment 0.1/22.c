@@ -5,7 +5,7 @@ void getArray(int lim,int Arr[][20]){
     int j,i;
     for( i=0;i<lim;i++){
         for( j=0;j<lim;j++){
-            scanf("%d",Arr[i][j]);
+            scanf("%d",&Arr[i][j]);
         }
     }
 }
