@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+    int n=5,k=0;
+    for(int i=0;i<n;i++){
+        for(int j=0;j<=i;j++){
+            (k%2==0)?printf("* "):printf("$ ");
+            k++;
+        }
+        printf("\n");
+    }
+}

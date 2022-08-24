@@ -3,16 +3,22 @@
 
 int main(){
 
-    int limit,i,j;
+    int i,j,limit;
     printf("Enter the limit:");
     scanf("%d",&limit);
     
-    for(i=0;i<limit;i++){
-        for(j=0;j<limit;j++){
-            if()
+    for(i=1;i<=limit;i++){
+        for(j=1;j<=i;j++){
+            printf("*");
         }
+        for(int k=(limit-(i));k>0;k--){
+            printf("  ");
+        }
+        for(j=1;j<=i;j++){
+            printf("*");
+        }
+        printf("\n");
     }
-    //printf("Rs:%d/-\n",);
   	return 0;
     
 }
